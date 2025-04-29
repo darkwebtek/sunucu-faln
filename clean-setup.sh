@@ -1,4 +1,4 @@
-cat > /root/clean-setup.sh << 'EOF'
+cat > clean-setup.sh << 'EOF'
 #!/bin/bash
 
 echo "Temiz kurulum başlıyor..."
@@ -108,9 +108,3 @@ pm2 startup
 
 echo "Kurulum tamamlandı!"
 EOF
-
-# Betik dosyasını çalıştırılabilir yapın
-chmod +x /root/clean-setup.sh
-
-# Betiği çalıştırın
-./root/clean-setup.sh
